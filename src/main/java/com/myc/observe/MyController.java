@@ -25,7 +25,6 @@ public class MyController {
     Random random = new Random();
 
     public MyController( RestTemplateBuilder restTemplateBuilder) {
-        restClient = RestClient.create();
         this.restTemplate = restTemplateBuilder.build();
 
     }
